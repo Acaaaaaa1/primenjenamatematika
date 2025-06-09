@@ -1,4 +1,5 @@
 html, body {
+    font-family: arial;
     height: 100%;
     margin: 0;
     background-color: rgb(17, 65, 89);
@@ -89,6 +90,9 @@ body {
     h3{
         font-size: 30px;
     }
+    .formula-tekst{
+        font-size: 30px;
+    }
 }
 .video{
     
@@ -128,4 +132,8 @@ body {
     background-color: rgba(5, 113, 137, 0.582);
     cursor: pointer;
     
+}
+.zadatak-slike{
+    background: transparent;
+    width: 400px;
 }
