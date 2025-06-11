@@ -88,10 +88,10 @@ body {
         margin-bottom: 150px;
     }
     h3{
-        font-size: 30px;
+        font-size: 20px;
     }
     .formula-tekst{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 .video{
@@ -136,4 +136,36 @@ body {
 .zadatak-slike{
     background: transparent;
     width: 400px;
+}
+@media (max-width: 500px){
+    h3{
+        font-size: 30px;
+    }
+    .formula-tekst{
+        font-size: 30px;
+    }
+}
+.onama-slike{
+    display: inline-block;
+    width: 100px;
+     
+    animation-duration: 3s;
+    animation-name: spin;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+}
+@keyframes spin{
+    0%{
+
+    }
+    50%{
+        transform: rotate(180deg);
+        width: 150px;
+    }
+    100%{
+        transform: rotate(360deg);
+        width: 100px;
+    }
 }
