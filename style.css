@@ -9,6 +9,9 @@ body {
     
     flex-direction: column;
 }
+h3{
+    text-align: center;
+}
 
 .header {
     display: flex;
@@ -96,7 +99,7 @@ body {
 }
 .video{
     
-    width: 300px;
+    width: 700px;
 }
 .objasnjenje{
     display: flex;
